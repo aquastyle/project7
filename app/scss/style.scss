@@ -1,0 +1,298 @@
+@import 'vars';
+@import 'global';
+@import 'media';
+
+
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu__list {
+
+    li {
+        display: inline-block;
+
+
+
+        a {
+            font-size: 14px;
+        }
+    }
+
+
+
+}
+
+.menu__item+.menu__item {
+    padding-left: 10px;
+
+}
+
+.menu__link {
+    text-transform: uppercase;
+    padding: 43px 20px;
+    transition: all .3s;
+
+    &:hover {
+        background-color: #131313;
+        color: #fff
+    }
+}
+
+.bike {
+    padding: 100px 0 150px;
+}
+
+.bike__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bike__column-slider {
+    flex-basis: 630px;
+    margin-left: 30px;
+    max-width: 630px;
+}
+
+.bike__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    margin: 60px 0 5px;
+}
+
+.bike__subtitle {
+    margin: 0 0 60px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #6F6F6F;
+}
+
+.bike__text {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    columns: #131313;
+}
+
+.bike__link {
+    margin-top: 80px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+    background-color: #131313;
+    color: #fff;
+    padding: 28px 80px;
+    text-transform: uppercase;
+
+}
+
+.bike-slider .slick-dots {
+    right: 0;
+}
+
+.slick-dots {
+    position: absolute;
+    top: 52px;
+
+    li {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 0;
+        padding: 0;
+        background-color: #131313;
+        width: 2px;
+        height: 25px;
+        background-repeat: 7px;
+        cursor: pointer;
+        transition: all .3s;
+
+
+
+    }
+
+
+}
+
+
+
+
+.slick-active button {
+    background-color: #ff4040;
+
+}
+
+.slick-dots button:hover,
+.slick-active button {
+    background-color: #ff4040;
+}
+
+.bike-list {
+    display: flex;
+    justify-content: space-around;
+    color: #131313;
+
+    &__item {
+        font-weight: 700;
+        text-transform: uppercase;
+        flex-basis: 160px;
+        text-align: center;
+    }
+
+    span {
+        font-weight: 400;
+        display: block;
+        font-style: 12px;
+        text-transform: lowercase;
+        color: #131313;
+
+    }
+}
+
+.info {
+    margin-bottom: 150px;
+
+}
+
+.info__inner {
+    display: flex;
+}
+
+.info__img {
+    margin-right: 60px;
+    flex-basis: 570px;
+    object-fit: cover;
+}
+
+.info__list {
+    flex-basis: 490px;
+}
+
+.info__item+.info__item {
+    padding-top: 50px;
+}
+
+.info__item-title {
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+
+}
+
+.info__item-text {
+    max-width: 450px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #131313;
+
+
+}
+
+.characteristics {
+    margin-bottom: 150px;
+}
+
+.characteristics__head {
+    margin: 0 0 40px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.characteristics__inner {
+    display: flex;
+}
+
+.characteristics__img {
+    align-self: center;
+}
+
+.characteristics__items {
+    flex-basis: 570px;
+    margin-right: 60px;
+}
+
+.characteristics__list+.characteristics__list {
+    padding-top: 30px;
+
+}
+
+.characteristics__title {
+    padding: 2px 0 3px;
+    text-transform: uppercase;
+    background-color: #131313;
+    color: #fff;
+    font-weight: 700;
+}
+
+.characteristics__line {
+    display: flex;
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #131313;
+}
+
+.characteristics__name {
+    flex-basis: 285px;
+    padding-right: 25px;
+
+}
+
+.characteristics__descr {
+    flex-basis: 285px;
+}
+
+.slider {
+    margin-bottom: 50px;
+}
+
+.slider__items .slider-dots {
+    top: 0;
+    left: 0;
+}
+
+.slider__item {
+    padding-left: 50px;
+}
+
+.price {
+    margin-bottom: 100px;
+}
+
+.form {
+    min-width: 420px;
+}
+
+.form__title {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.form__text{
+    min-width: 300px;
+    margin-bottom: 30px;
+
+}
